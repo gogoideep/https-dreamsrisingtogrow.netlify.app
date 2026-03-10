@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dream's Rising to Grow | AI Business Agency</title>
+<meta name="description" content="Dream's Rising to Grow - AI powered digital marketing, website development, automation and consulting helping businesses scale globally.">
+
+<style>
+*{box-sizing:border-box}
+body{font-family:Arial,Helvetica,sans-serif;margin:0;background:#f4f8ff;color:#1f2937}
+
+header{background:#0b3ea8;color:white;padding:30px;text-align:center}
+header h1{margin:0;font-size:34px}
+
+nav{background:#0f4bd8;padding:14px;text-align:center;position:sticky;top:0;z-index:1000}
+nav a{color:white;margin:0 16px;text-decoration:none;font-weight:bold;font-size:14px}
+
+.hero{padding:120px 20px;text-align:center;background:linear-gradient(120deg,#2563eb,#60a5fa);color:white}
+.hero h1{font-size:48px;margin-bottom:15px}
+.hero p{max-width:750px;margin:auto;font-size:18px}
+.hero button{margin-top:25px;padding:14px 28px;border:none;border-radius:8px;background:white;color:#0b3ea8;font-weight:bold;cursor:pointer}
+
+.section{padding:70px 20px;max-width:1150px;margin:auto}
+.section h2{text-align:center;color:#0b3ea8;margin-bottom:40px}
+
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:25px}
+
+.card{background:white;border-radius:12px;padding:25px;box-shadow:0 6px 14px rgba(0,0,0,0.08);text-align:center}
+.card h3{color:#0f4bd8}
+
+.pricing{background:white;border-radius:12px;padding:25px;text-align:center;box-shadow:0 4px 12px rgba(0,0,0,0.08)}
+.price{font-size:28px;color:#2563eb;margin:10px 0}
+
+.testimonial{background:white;padding:25px;border-radius:12px;box-shadow:0 4px 10px rgba(0,0,0,0.08)}
+
+form{max-width:520px;margin:20px auto;text-align:left}
+input,textarea,select{width:100%;padding:11px;margin:8px 0;border:1px solid #ccc;border-radius:6px}
+button.submit{background:#0b3ea8;color:white;border:none;padding:12px 20px;border-radius:7px;font-weight:bold;cursor:pointer}
+
+.blog-card{background:white;padding:20px;border-radius:12px;box-shadow:0 4px 10px rgba(0,0,0,0.08)}
+
+footer{background:#0b3ea8;color:white;text-align:center;padding:25px;margin-top:50px}
+
+.whatsapp{position:fixed;bottom:20px;right:20px;background:#25D366;color:white;padding:16px 18px;border-radius:50%;font-size:20px;text-decoration:none;box-shadow:0 6px 14px rgba(0,0,0,0.3)}
+
+#chatbotBox{position:fixed;bottom:20px;left:20px;width:260px;background:white;border-radius:12px;box-shadow:0 6px 14px rgba(0,0,0,0.2);display:none}
+#chatbotHeader{background:#0b3ea8;color:white;padding:10px;border-radius:12px 12px 0 0}
+#chatbotMessages{height:180px;overflow-y:auto;padding:10px;font-size:13px}
+#chatbotInput{display:flex}
+#chatbotInput input{flex:1;border:none;border-top:1px solid #ddd;padding:8px}
+#chatbotInput button{border:none;background:#0b3ea8;color:white;padding:8px}
+
+.chatButton{position:fixed;bottom:20px;left:20px;background:#0b3ea8;color:white;padding:12px 16px;border-radius:20px;cursor:pointer}
+
+</style>
+</head>
+
+<body>
+
+<header>
+<h1>Dream's Rising to Grow</h1>
+<p>AI Solutions • Digital Marketing • Business Growth</p>
+</header>
+
+<nav>
+<a href="#home">Home</a>
+<a href="#services">Services</a>
+<a href="#pricing">Pricing</a>
+<a href="#booking">Book Service</a>
+<a href="#blog">Blog</a>
+<a href="#contact">Contact</a>
+</nav>
+
+<section class="hero" id="home">
+<h1>AI Powered Growth for Modern Businesses</h1>
+<p>We combine artificial intelligence, digital marketing and automation to help startups and companies grow faster online.</p>
+<button onclick="document.getElementById('booking').scrollIntoView()">Start Your Project</button>
+</section>
+
+<section class="section" id="services">
+<h2>Our AI Business Services</h2>
+<div class="grid">
+
+<div class="card">
+<h3>AI Automation</h3>
+<p>Automate tasks, customer support and operations using AI tools.</p>
+</div>
+
+<div class="card">
+<h3>Website Development</h3>
+<p>High performance websites designed to generate leads and clients.</p>
+</div>
+
+<div class="card">
+<h3>Digital Marketing</h3>
+<p>SEO, ads and social media marketing strategies that grow brands.</p>
+</div>
+
+<div class="card">
+<h3>Data Entry & Virtual Support</h3>
+<p>Professional online support and data management services.</p>
+</div>
+
+<div class="card">
+<h3>AI Chatbots</h3>
+<p>24/7 customer support bots for websites and online stores.</p>
+</div>
+
+<div class="card">
+<h3>Online Business Setup</h3>
+<p>Launch digital businesses, platforms and automated systems.</p>
+</div>
+
+</div>
+</section>
+
+<section class="section" id="pricing">
+<h2>Service Packages</h2>
+<div class="grid">
+
+<div class="pricing">
+<h3>Starter</h3>
+<p class="price">₹5,000</p>
+<p>Business website</p>
+<p>Basic SEO</p>
+<p>Email support</p>
+<button class="submit">Order</button>
+</div>
+
+<div class="pricing">
+<h3>Professional</h3>
+<p class="price">₹15,000</p>
+<p>Website + marketing</p>
+<p>Lead generation</p>
+<p>Priority support</p>
+<button class="submit">Order</button>
+</div>
+
+<div class="pricing">
+<h3>Enterprise</h3>
+<p class="price">₹50,000+</p>
+<p>AI automation</p>
+<p>Full digital system</p>
+<p>Business consulting</p>
+<button class="submit">Order</button>
+</div>
+
+</div>
+</section>
+
+<section class="section" id="booking">
+<h2>Book a Service</h2>
+<form>
+<label>Name</label>
+<input type="text" required>
+
+<label>Email</label>
+<input type="email" required>
+
+<label>Select Service</label>
+<select>
+<option>Website Development</option>
+<option>Digital Marketing</option>
+<option>AI Automation</option>
+<option>Business Consulting</option>
+</select>
+
+<label>Project Details</label>
+<textarea rows="4"></textarea>
+
+<button class="submit">Submit Booking</button>
+</form>
+</section>
+
+<section class="section" id="blog">
+<h2>AI & Business Insights</h2>
+<div class="grid">
+
+<div class="blog-card">
+<h3>Top AI Tools for Business</h3>
+<p>Discover powerful tools transforming modern companies.</p>
+</div>
+
+<div class="blog-card">
+<h3>How Startups Scale with Automation</h3>
+<p>Automation reduces cost and increases efficiency.</p>
+</div>
+
+<div class="blog-card">
+<h3>Why Every Business Needs AI</h3>
+<p>AI is becoming essential for competitive advantage.</p>
+</div>
+
+</div>
+</section>
+
+<section class="section" id="contact">
+<h2>Contact Us</h2>
+<p style="text-align:center">Email: gogoideep996@gmail.com | Phone: +91 9875682178 | India</p>
+</section>
+
+<footer>
+<p>© 2026 Dream's Rising to Grow | AI Business Agency</p>
+</footer>
+
+<a class="whatsapp" href="https://wa.me/919875682178" target="_blank">W</a>
+
+<div class="chatButton" onclick="toggleChat()">AI Chat</div>
+
+<div id="chatbotBox">
+<div id="chatbotHeader">AI Assistant</div>
+<div id="chatbotMessages">Hello 👋 How can I help your business today?</div>
+<div id="chatbotInput">
+<input id="chatInput" placeholder="Ask something...">
+<button onclick="sendMsg()">Send</button>
+</div>
+</div>
+
+<script>
+function toggleChat(){
+let box=document.getElementById('chatbotBox');
+box.style.display=box.style.display==='block'?'none':'block';
+}
+
+function sendMsg(){
+let input=document.getElementById('chatInput');
+let messages=document.getElementById('chatbotMessages');
+let text=input.value;
+if(text.trim()==='')return;
+messages.innerHTML+="<br><b>You:</b> "+text;
+messages.innerHTML+="<br><b>AI:</b> Thanks for your message. Our team will assist you.";
+input.value='';
+messages.scrollTop=messages.scrollHeight;
+}
+</script>
+
+</body>
+</html>
